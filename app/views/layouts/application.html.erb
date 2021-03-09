@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Studio Zerance, l'agence d'experts Shopify en France</title>
+    <meta name="description" content="L'agence Zerance accompagne la croissance de votre site e-commerce Shopify. Nous sommes spécialisés dans le développement de thèmes et d'applications, facebook ads, marketing digital, SEO... Issus de la fusion entre Studio131 et Zerance, nous sommes la seule agence d'experts certifiés par Shopify en France">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+    <%= favicon_link_tag 'favicon_zerance_rmbg.png' %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = " https://cdn.jsdelivr.net/npm/@glidejs/glide">  </script>
+  </head>
+
+  <body>
+    <div class="page-container">
+        <div class="header-container"><%= render "shared/header" %></div>
+        <div class="content-container"><%= yield %></div>
+        <div class="footer-container"><%= render "shared/footer" %></div>
+        <div class="contact-container"><%= render "shared/contact" %></div>
+    </div>
+  </body>
+</html>

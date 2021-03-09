@@ -1,0 +1,67 @@
+#banner {
+  min-height: 70vh;
+  max-width: 800px;
+  padding: 4rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#banner h1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+
+#banner h1:before {
+  content:"<" ;
+}
+
+#banner h1:after {
+  content:"/>" ;
+}
+
+#banner h1 strong{
+  background: url(https://cdn.shopify.com/s/files/1/0072/0561/7711/files/Calque_14.png?8187);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  overflow: visible;
+}
+
+#banner p {
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-bottom: 2.8rem;
+}
+
+//** RESPONSIVE
+
+@media (min-width: 100px) and (max-width: 667px) {
+  #banner{
+    min-height: fit-content;
+  }
+
+  #banner h1 {
+    font-size: 31px;
+  }
+  #banner h1:before {
+    font-size: 40px;
+  }
+
+  #banner h1:after {
+    font-size: 40px;
+  }
+
+  #banner p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #banner{
+    min-height: fit-content;
+  }
+}

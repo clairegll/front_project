@@ -1,0 +1,72 @@
+.header {
+  background: white;
+  padding: 15px 0;
+}
+
+.header .header-container{
+  max-width: 1600px;
+  margin: auto;
+}
+
+.header .header-grid{
+  display: flex;
+  width: 92%;
+  margin: auto;
+  justify-content: space-between;
+  max-height: 15vh;
+}
+
+.header .header-items{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header .header-item {
+  position: relative;
+}
+
+.header .header-link {
+  text-decoration: none;
+  color: black;
+  margin: 0.5rem 1.5rem;
+  font-weight: 900;
+  font-size: 20px;
+  position: relative;
+}
+
+.header .header-brand img {
+  max-width: 180px;
+  z-index: -10;
+}
+
+// Hover yellow and underline
+.header .header-link:before{
+  content: "";
+  position: absolute;
+  bottom: -0.05em;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #ffcd1a;
+  transition: width 0.5s ease-in-out;
+}
+
+.header .header-link:hover:before{
+  width: 100%;
+}
+
+.header .header-link:hover{
+  color: #ffcd1a;
+  padding-bottom: 5px;
+}
+
+//** RESPONSIVE
+@media (min-width: 100px) and (max-width: 835px) {
+  .header .header-link{
+   display: none;
+  }
+  .header .contact{
+   display: block;
+  }
+}

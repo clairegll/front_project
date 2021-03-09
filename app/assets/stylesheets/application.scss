@@ -1,0 +1,13 @@
+// External libraries
+@import "bootstrap/scss/bootstrap";
+
+ // Your CSS partials
+@import "components/index";
+
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap');
+
+html, body {
+    font-family: 'Karla', sans-serif;
+    color: black;
+}

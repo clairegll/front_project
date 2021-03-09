@@ -1,0 +1,37 @@
+  <!-- Pop-up Contact -->
+<div>
+  <div id="popupContact" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id = "croix" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-title">
+          <h3> <strong>On échange?</strong> </h3>
+        </div>
+        <div class="modal-body">
+          <form  action="/" method="get" class="modal-form" id="submitContact" >
+            <input type="text" class="form-group p-2" placeholder="Votre prénom" id="name" required/>
+            <input type="email" class="form-group p-2" placeholder="Votre email" required>
+            <textarea rows="6" class="form-group p-2" placeholder="Votre message" required></textarea>
+            <input type="submit" class="btn modal-btn"  data-dismiss="two" data-toggle="modal" data-target="#popupGenre"/>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Genre -->
+  <div id="popupGenre" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content modal-genre">
+        <div class="modal-body">
+          <h3 id="textPopupGenre"> <strong> </strong> </h3>
+          <button id = "buttonPopupGenre" class="btn modal-btn" type="button" data-dismiss="modal" aria-label="Close"> Bravo </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

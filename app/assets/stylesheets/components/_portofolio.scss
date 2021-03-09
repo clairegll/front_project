@@ -1,0 +1,49 @@
+#portofolio {
+  padding: 5rem 0;
+  width: 100%;
+  background-color: black;
+}
+
+.portofolio-text{
+  margin: auto;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size:1.8rem;
+}
+
+.portofolio-text h5{
+  font-size: 1.65rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 3rem 8rem;
+}
+
+.card-category {
+  margin: auto;
+  padding: 5px;
+}
+
+.card-category img {
+  width: 100%;
+  border-style: none;
+}
+
+
+
+//** RESPONSIVE
+@media (min-width: 100px) and (max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 3rem;
+  }
+
+  .portofolio-text h5{
+    font-size: 18px;
+  }
+}

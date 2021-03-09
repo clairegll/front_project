@@ -1,0 +1,49 @@
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-content {
+    max-width: 415px;
+}
+
+.modal-genre {
+  top: 172px;
+  justify-content: center;
+  width: 390px;
+  height: 100px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  border-color: none;
+}
+
+.modal-btn {
+  color: white;
+  background-color: #ffcd1a;
+}
+
+// CLOSE ALL
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.rm-filter{
+  display: none;
+}
+
+.scroll-active{
+  overflow: inherit;
+}

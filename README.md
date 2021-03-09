@@ -40,13 +40,15 @@ J'ai intégré la font 'Karla' directement importée de Google Font dans app/ass
 Les images ont été intégrées dans app/assets/images
 
 JS
-Pour plus de clareté, chaque élement de l'app a son fichier CSS que vous trouverez dans app/javascript/channels/
+Pour plus de clareté, chaque élement de l'app a son fichier JS que vous trouverez dans app/javascript/channels/
 - pour le slider : slider.js
 - pour le module contact : contact.js
 
 Ils ont été importés dans app/javascript/packs/application.js
 
 //DIFFICULTES
+
+J'ai choisi de faire un application rails plutôt qu'un fichier index.html et ses fichiers js et css dans le but de pratiquer mes connaissances acquises pendant le Wagon, je pense que ce choix m'a fait perdre du temps à certain moment, mais m'a permis de m'entrainer à travailler dans un environmment ressemblant à celui de Shopify
 
 Les deux difficultés ont été indéniablement :
 - le slider : j'ai d'abord commencé par faire le slider avec boostrap, tout fonctionnait parfaitement, mais je n'étais pas satisfaite de l'utilisation mobile et je n'arrivais pas bien à faire apparaitre la slide suivante.
@@ -61,6 +63,8 @@ Le reste ne m'a pas paru compliqué, simplement, je n'avais pas refait d'app dep
 & à tout problème sa solution, j'ai épluché les forums et ai pris ce cas comme une opportunité d'apprendre de nouvelles choses! Merci pour cet apprentissage !
 
 //TEMPS
+
+Je n'ai pas vu les heures passées en travaillant sur ce projet, donc les 7h ont littéralement été explosées... Mais je peux tout refaire en 1h top chrono désormais !! :)
 
 1. Header : 45min
 2. Bannière : 30min

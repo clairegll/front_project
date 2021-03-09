@@ -3,14 +3,14 @@
 Bienvenue dans l'app Studio Zérance
 
 Pour lancer l'app, il vous suffit d'inscrire dans votre terminal :
-- git clone
+- git clone git@github.com:clairegll/front_project.git
 - bundle
 - yarn
 - rails s & vous pouvez lancer le serveur http://localhost:3000/
 
 Pour voir le détail du code, vous pouvez l'ouvrir
 - dans Sublime Text avec la commande stt
-- dans Code Viewer avec la commande XX
+- dans Visual Code avec la commande code .
 
 
 Vous trouverez la structure de l'application dans app/views/layouts/application.html.erb

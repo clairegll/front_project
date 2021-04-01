@@ -10,11 +10,8 @@ const initContactForm = () => {
   const croix = document.getElementById("croix")
 
 // Contact Form Behaviour
-console.log("helooo")
   document.getElementById("submitContact").addEventListener("submit", (event) => {
-    console.log("je suis la")
     event.preventDefault();
-     console.log("je rentré après eventprevent")
     nameInput = document.getElementById("name").value;
     sendRequestApi(nameInput);
     buttonPopupGenre = document.getElementById("buttonPopupGenre");

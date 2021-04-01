@@ -20,8 +20,6 @@ import "bootstrap"
 import { initContactForm } from '../channels/contact';
 import { initSlider } from '../channels/slider';
 
-console.log('Hello from application.js')
-
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   initContactForm();
